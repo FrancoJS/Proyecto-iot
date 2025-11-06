@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomenu"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#4029C1"
+        android:padding="10dp"
+        android:text="Bienvenido Usuario :"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/manipular"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#03A9F4"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Manipular Alarma ESP32"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/acciones"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#9C27B0"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Ver Acciones"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/cerrar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#010675"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Cerrar Sesión"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+</LinearLayout>

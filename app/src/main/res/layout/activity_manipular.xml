@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/fondo_monitoreo"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <!-- Encabezado -->
+    <TextView
+        android:id="@+id/tvBienvenido"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="#002E6D"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Bienvenido Usuario :"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/tvManipular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Manipular alarma"
+        android:textColor="#002E6D"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Botón ON -->
+    <!-- Botón ON -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_circle_green"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center"
+        android:text="On"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <!-- Botón OFF -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOff"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Off"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_circle_red"
+        android:backgroundTint="@null"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <!-- Botón VOLVER -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolver"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_oval_red"
+        android:backgroundTint="#3147F4"
+        android:gravity="center"
+        android:text="Volver"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
