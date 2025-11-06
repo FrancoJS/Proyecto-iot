@@ -15,7 +15,7 @@
 
         <!-- Encabezado -->
         <TextView
-            android:id="@+id/tvBienvenido"
+            android:id="@+id/bienvenido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bienvenido Usuario :"
@@ -51,7 +51,7 @@
 
         <!-- Botón Volver -->
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnVolverAcciones"
+            android:id="@+id/btnVolver"
             android:layout_width="250dp"
             android:layout_height="70dp"
             android:text="Volver"

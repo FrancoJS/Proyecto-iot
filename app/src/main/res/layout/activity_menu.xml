@@ -19,7 +19,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/manipular"
+        android:id="@+id/btnman"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -32,7 +32,7 @@
         android:textSize="34sp" />
 
     <Button
-        android:id="@+id/acciones"
+        android:id="@+id/btnacc"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -45,7 +45,7 @@
         android:textSize="34sp" />
 
     <Button
-        android:id="@+id/cerrar"
+        android:id="@+id/btncerrar"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

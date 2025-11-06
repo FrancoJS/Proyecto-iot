@@ -2,7 +2,7 @@ package cl.inacap.app1
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
+
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -64,13 +64,13 @@ class Principal : AppCompatActivity() {
                             Toast.makeText(this@Principal, "Acceso Correcto", Toast.LENGTH_SHORT)
                                 .show()
 
-//                            val i = Intent(this@Principal, Menu::class.java)
-//                            i.putExtra("usu", usu)
-//                            i.putExtra("pas", pas)
-//                            i.putExtra("ema", ema)
-//                            i.putExtra("tip", tip)
-//                            startActivity(i)
-//                            finish()
+                            val i = Intent(this@Principal, Menu::class.java)
+                            i.putExtra("usu", usu)
+                            i.putExtra("pas", pas)
+                            i.putExtra("ema", ema)
+                            i.putExtra("tip", tip)
+                            startActivity(i)
+                            finish()
                             return
                         } else {
                             Toast.makeText(
