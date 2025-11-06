@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "102540597942",
+    "firebase_url": "https://proyecto-iot-d318b-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-iot-d318b",
+    "storage_bucket": "proyecto-iot-d318b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102540597942:android:e0d1220cdc08ba7be8a417",
+        "android_client_info": {
+          "package_name": "cl.inacap.app1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTnTAtDwnNvMaZi1t9hM7eWPBeMk2hpC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

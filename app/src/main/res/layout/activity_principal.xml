@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/ivlogin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio de sesion"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtusu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivlogin" />
+
+    <EditText
+        android:id="@+id/txtusu"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/material_dynamic_neutral50"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/txtpas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtpas"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/material_dynamic_neutral50"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivlogin"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnini"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:insetTop="0dp"
+        android:text="Entrar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivlogin"
+        app:layout_constraintVertical_bias="0.543" />
+</androidx.constraintlayout.widget.ConstraintLayout>
