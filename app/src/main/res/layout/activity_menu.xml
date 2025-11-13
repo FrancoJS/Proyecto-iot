@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#03A9F4"
+        android:backgroundTint="#E916A5E6"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:text="Manipular Alarma ESP32"
@@ -45,6 +45,19 @@
         android:textSize="34sp" />
 
     <Button
+        android:id="@+id/btncambiarClave"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#CC9906"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Cambiar Contraseña"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Button
         android:id="@+id/btncerrar"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
@@ -56,4 +69,5 @@
         android:text="Cerrar Sesión"
         android:textAlignment="center"
         android:textSize="34sp" />
+
 </LinearLayout>
