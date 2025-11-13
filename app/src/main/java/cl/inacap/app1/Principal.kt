@@ -25,6 +25,7 @@ class Principal : AppCompatActivity() {
         val btnini: Button = findViewById(R.id.btnini)
         val txtusu: EditText = findViewById(R.id.txtusu)
         val txtpas: EditText = findViewById(R.id.txtpas)
+        val btnvolver: Button = findViewById(R.id.btnvolverLogin)
 
         val database = FirebaseDatabase.getInstance().getReference("Usuarios")
 
@@ -37,6 +38,10 @@ class Principal : AppCompatActivity() {
             }else{
                 Toast.makeText(this@Principal, "Porfavor complete todos los campos", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        btnvolver.setOnClickListener {
+            finish()
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
