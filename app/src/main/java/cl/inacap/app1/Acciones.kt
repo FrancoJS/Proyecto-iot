@@ -27,7 +27,7 @@ class Acciones : AppCompatActivity() {
 
         val usuario = intent.getStringExtra("usu") ?: "Usuario"
         txtBienvenida = findViewById(R.id.bienvenido)
-        txtBienvenida.text = "Menu Acciones, ¡Bienvenido $usuario!"
+        txtBienvenida.text = "¡Bienvenido $usuario!"
 
         btnVolver = findViewById(R.id.btnVolver)
         btnVolver.setOnClickListener { finish() }

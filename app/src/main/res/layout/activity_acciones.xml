@@ -14,20 +14,22 @@
         android:gravity="center_horizontal">
 
         <!-- Encabezado -->
+
+        <!-- Subtítulo -->
+
         <TextView
             android:id="@+id/bienvenido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bienvenido Usuario :"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white"
+            android:layout_marginBottom="12dp"
             android:background="#002E6D"
-            android:padding="10dp"
             android:gravity="center"
-            android:layout_marginBottom="12dp" />
+            android:padding="10dp"
+            android:text="Bienvenido Usuario :"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-        <!-- Subtítulo -->
         <TextView
             android:id="@+id/tvVerAcciones"
             android:layout_width="wrap_content"

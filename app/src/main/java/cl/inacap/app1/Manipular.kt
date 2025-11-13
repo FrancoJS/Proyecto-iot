@@ -41,7 +41,7 @@ class Manipular: AppCompatActivity (){
 
         val txtBienvenida = findViewById<TextView>(R.id.bienvenido)
 
-        txtBienvenida.text = "Menu Manipular, ¡Bienvenido $usuario!"
+        txtBienvenida.text = "¡Bienvenido $usuario!"
 
         val btnVolver: Button = findViewById(R.id.btnVolver)
 
