@@ -25,6 +25,7 @@ class Menu : AppCompatActivity() {
         val btnman: Button = findViewById(R.id.btnman)
         val btnacc: Button = findViewById(R.id.btnacc)
         val btncerrar: Button = findViewById(R.id.btncerrar)
+        val btncambiarContrasena: Button = findViewById(R.id.btncambiarContrasena)
 
         btnman.setOnClickListener {
             val i = Intent(this@Menu, Manipular::class.java)
@@ -44,6 +45,12 @@ class Menu : AppCompatActivity() {
             val i = Intent(this@Menu, Principal::class.java)
             startActivity(i)
             finish()
+        }
+
+        btncambiarContrasena.setOnClickListener {
+            val i = Intent(this@Menu, CambiarContrasena::class.java)
+            i.putExtra("usu", usuario)
+            startActivity(i)
         }
     }
 }
