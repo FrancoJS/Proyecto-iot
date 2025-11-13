@@ -25,19 +25,22 @@
         android:textStyle="bold" />
 
     <!-- Subtítulo -->
+
+    <!-- Botón ON -->
+    <!-- Botón ON -->
     <TextView
-        android:id="@+id/tvManipular"
+        android:id="@+id/tvEstado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:gravity="center"
-        android:text="Manipular alarma"
+        android:text="Estado alarma: "
         android:textColor="#002E6D"
         android:textSize="22sp"
         android:textStyle="bold" />
 
-    <!-- Botón ON -->
-    <!-- Botón ON -->
+    <!-- Botón OFF -->
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnOn"
         android:layout_width="150dp"
@@ -50,7 +53,6 @@
         android:textColor="@android:color/white"
         android:textSize="22sp" />
 
-    <!-- Botón OFF -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnOff"
         android:layout_width="150dp"
