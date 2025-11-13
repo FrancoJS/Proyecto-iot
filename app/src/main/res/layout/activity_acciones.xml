@@ -39,28 +39,47 @@
             android:layout_marginBottom="20dp"
             android:gravity="center" />
 
-        <!-- Imagen del listado -->
-        <ImageView
-            android:id="@+id/imgListado"
-            android:layout_width="wrap_content"
+
+        <TextView
+            android:id="@+id/tvHistorial"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/fotolistado"
-            android:adjustViewBounds="true"
-            android:contentDescription="Listado de acciones"
-            android:layout_marginBottom="30dp" />
+            android:text="Cargando historial..."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#40002E6D"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="12dp"
+            android:elevation="4dp"
+            android:shadowColor="#001B66"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:gravity="start"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:fadeScrollbars="false"
+            android:backgroundTint="@null"
+            android:layout_marginBottom="16dp"
+            android:clipToOutline="true"
+        />
+
+
 
         <!-- Botón Volver -->
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnVolver"
             android:layout_width="250dp"
-            android:layout_height="70dp"
-            android:text="Volver"
-            android:textSize="20sp"
-            android:textColor="@android:color/white"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/btn_oval_red"
             android:backgroundTint="@null"
             android:gravity="center"
-            android:layout_marginBottom="20dp"/>
+            android:text="Volver"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
 
     </LinearLayout>
 </ScrollView>
